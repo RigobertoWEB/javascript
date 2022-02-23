@@ -5,9 +5,126 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* .root{
+  background-color: #4C85A1 !important;
+} */
+
+
+nav{
+  background-color: #EEE;
+margin-bottom: 5px;
+
+  
+}
+
+.row{
+  background-color: #FFF;
+}
+
+.link{
+  text-decoration: none;
+  color: #000;
+}
+
+.menuLight{
+  background-color: #EEE;
+  color: #000 ;
+  border-radius: 2px;
+  border: px solid #4C85A1;
+
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.menuDark{
+  background-color: #4C85A1;
+  color: #EEE !important;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.burgerMenuLight{
+  background-color: #EEE !important;
+  color: #000;
+}
+
+.burgerMenuDark{
+  background-color: #FFF !important;
+  color: #FFF;
+}
+/* .menu{
+  background-color: #EEE;
+  color: #000 ;
+  border-radius: 2px;
+  border: px solid #4C85A1;
+
+  height: 100vh;
+} */
+
+.enlaces-menu{
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px;
+
+}
+
+.enlaces-menu:hover{
+  color: #FFF;
+  background-color: #072c54;
+}
+
+.contenido{
+  max-width: 100%;
+  text-align: justify;
+  justify-content: center;
+  margin: 15px 100px;
+}
+
+/* .dark{
+  background-color: #FFF;
+  filter: invert(1);
+} */
+
+.dark{
+  background-color: #000 !important;
+  color: #FFF !important;
+}
+
+
+.menu-javascript-b{
+  display: none !important;
+}
+
+.button {
+  height: 2.5rem;
+  padding: 0.625rem 1rem;
+  border: 0;
+  background-color: red;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.icono-theme{
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (max-width: 991px){
+  .menu-javascript-a{
+    display: none !important;
+
+  }
+
+  .menu-javascript-b{
+    display: block !important;
+  }
 }
